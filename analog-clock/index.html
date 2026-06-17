@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analoq soat</title>
+    <!-- CSS faylni ulash -->
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="clock-card">
+        <div class="clock-frame">
+            <div class="clock-face" id="clockFace">
+                <!-- Markerlarni JS qo'shadi -->
+                <div class="center-dot"></div>
+
+                <!-- Soat millari -->
+                <div class="hand hour-hand" id="hourHand"></div>
+                <div class="hand minute-hand" id="minuteHand"></div>
+                <div class="hand second-hand" id="secondHand"></div>
+            </div>
+        </div>
+
+        <!-- Raqamli vaqt -->
+        <div class="digital-wrap">
+            <div class="digital-clock" id="digitalClock">
+                00<span class="blink-colon">:</span>00<span class="blink-colon">:</span>00
+            </div>
+        </div>
+        <div class="brand">⏱️ analoq · raqamli</div>
+    </div>
+
+    <!-- JavaScript faylni ulash -->
+    <script src="./script.js"></script>
+</body>
+</html>
